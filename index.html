@@ -5,18 +5,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Tsabang Nole </title>
+    <link rel="stylesheet" href="css\page.css">
     <style>
+
     body{
       display: grid;
-      grid-template-columns; 1fr 2fr;
-      gap:20px
+      grid-template-columns:1fr 2fr;
+      gap:20px;
     }
+
     header{
       grid-column-start: 1;
-      grid-column-end 2;
-      blackground-color:peru;
+      grid-column-end: 3; 
+      grid-row-start: 1;
+      grid-row-start: 2;
     }
 
     main{
@@ -24,159 +26,203 @@
       grid-column-end:3;
       grid-row-start:2;
       grid-row-end: 3;
+      margin-top: 22%;
     }
-    aside{
-      grid-column-start:2;
-      grid-column-end:3;
 
-    h1{
-      color: blueviolet;
-      font-family:arial;
-      font-size: 48px;
-      font-height: 1.4;
-      font-style:italic;
-    letter-spacing: 1pt
+    aside{
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      margin-top: 111%;
     }
-      h2{
-        color: blue;
+
+footer{
+  grid-column-start:1;
+      grid-column-end:3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+}
+
+h1{
+      font-family:arial;
+      font-size: 25px;
+      line-height: 1.4;
+     letter-spacing: 1pt;
+     color: green;
+     text-align: center;
+    }
+
+    h2{
+        color:black;
         font-family:arial;
-        font-size: 32px;
-        test-align:left;
+        font-size: 20px;
+        text-align: center;
+      }
+
   p{
     color: black;
     font-family:arial;
-    font-size: 18px
+    font-size: 20px;
     line-height:1,4;
-    font-style: italic;
-    {
-      intro{
-        font-family:Geogia;
-        font-size: 21px;
-        font-weight:bole;
-        color: black;
-        blackground-color:color: brown;
-        border-width: 5px
-        border-style: 10px
-        border-radius: 10px;
-        border=style: solid;
-        padding-keft: 20px;
-        padding-right: 20px
-
-    
-
-      }
-
-       h3{
+    font-style: bold;
+    justify-content: right;
+   justify-content: left;
+  }
+  
+  h3{
          font-family: arial;
          font-size: 24px;
+    } 
 
-       } 
-
-      P{
-        font-family: arial;
-        font-size: 18px;
-        line-height: 1.4;
-      }
       .intro {
         font-family: Georgia;
-        color: red;
-        border-color:color-adjust;
-        border-color:width;
-        border-size: 5px;
-        border-style: dashed;
-        padding-left: 20px;
-        padding-right: 20px;
+        color: black;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 30px;
+        justify-content: right;
+        justify-content: left;
       }
-      a{color: red;
+
+      a{
+      color: blue;
       text-decoration: none;
       }
-      a:hover 
+
     </style>
+  <title>Tsabang Nole </title>
   </head>
   <body>
     <header>
-      <h2>Welcome to TSABANG NOLE Website</h2>
-      <h2><img src='img/nole2.jpg'></h2>
-      <p class="intro"> I am a botanist with many skills
-       and competences in ethno pharmacology, environmental sciences,
-        biodiversity conservation, climate change and teaching </p> 
-      <h2>Vision</h2>
-      <div class
-      <p class='intro'>  A sound and healthy society resilient to climate
-      change effects and other crisis through conservation and sustainable 
-      use of natural resources </p>
-      <h1>Mission</h1>
-    <p class='intro'> 
-      •	Promoting community health and development by connecting people, ideas and resources 
-      •	Producing and  widely disseminate knowledge on the conservation, processing and use of key natural resources responding to urgent needs (food security, health, poverty alleviation…)
-      •	Conducting research based advocacy for improving the framework of policies, institutions and laws related to the sustainable management of natural resources.
-      •	Promoting a society free from any sort of pollution, discrimination and violence derived from the bad governance and sharing of natural resources.
-      etc.</h1>
-      <h1>Objectives</h1>
-      <p class='intro'>
-        To improve the connection of people, ideas and resources for community health and development.
-        To foster the  conservation and sustainable use of key natural resources responding to immediate needs (food, health, water…) at local level.
-        To conduction environmental and social impact assessment
-        To reduce the pollution, discrimination, violence and bad governance over the management of natural resources.
-        To improve community resilience to climate change and other hazards.
-        To produce efficient improved traditional medicines worldwide
-        To realize environmental and social impact </h1>
-        <h1>Foundamental problem</h1>
-        <p class='intro'>
-        The planet is highly exploited and life is increasingly threatened. 
-        The socio-economic development of the world without respect for the 
-        pillars of sustainable development (social equity, economic efficiency
-        and environmental health) creates social and economic inequalities, at 
-        all levels of human society. It impacts the earth irreversibly. 
-        While this has become at least 5 to 6 times insufficient to meet human 
-        needs is deteriorating every day. It is imperative to save the earth and
-        life (human, animal and plant)</p>
+      <h1>Welcome to TSABANG NOLE <span>Website</span> </h1>
+      <nav>
+          <div class="dropdown">
+              <a href="index.html"><button class="dropbtn">Home</button></a>
+                
+          </div>
+          <div class="dropdown">
+              <a href="index.html"><button class="dropbtn">About me</button></a>
+          </div>
 
+          <div class="dropdown">
+          <button class="dropbtn">Statement</button>
+          <div class="dropdown-content">
+          <a href="color/index.html">Missions</a>
+          <a href="typography/index.html">Visions</a>
+          <a href="iconography/index.html">Objectives</a>
+         </div>
+        </div>
+        </nav>
 
-
+      <img src="img/nole2.jpg" height="220px" width="150px" style="float: center">
     </header>
-    </header>
+
     <main>
-        <h2 >Graduare teacings</h2> 
+        <h2>About me</h2>
+        <div align="justify">
+        <p class="intro"> I am a botanist with many skills
+            and competences in ethno pharmacology, environmental sciences,
+             biodiversity conservation, climate change and teaching </p> 
+        </div>
+
+           <h2>Vision</h2>
+           <div align="justify">
+           <p class ="intro">
+           A sound and healthy society resilient to climate
+           change effects and other crisis through conservation and sustainable 
+           use of natural resources </p>
+          </div>
+
+           <h2>Mission</h2>
+           <div align="justify">
+         <p class="intro"> 
+           •	Promoting community health and development by connecting people, ideas and resources</br>
+           •	Producing and  widely disseminate knowledge on the conservation,
+           processing and use of key natural resources responding to urgent needs (food security, health, poverty alleviation…)</br> 
+           •	Conducting research based advocacy for improving the framework of policies, 
+           institutions and laws related to the sustainable management of natural resources.</br> 
+           •	Promoting a society free from any sort of pollution, discrimination and violence derived from the bad governance and sharing of natural resources.
+           etc.</p>
+          </div>
+
+           <h2>Objectives</h2>
+           <div align="justify">
+           <p class="intro">
+             To improve the connection of people, ideas and resources for 
+             community health and development.
+             To foster the  conservation and sustainable use of key natural 
+             resources responding to immediate needs (food, health, water…) at local level.
+             To conduction environmental and social impact assessment
+             To reduce the pollution, discrimination, violence and bad governance 
+             over the management of natural resources.
+             To improve community resilience to climate change and other hazards.
+             To produce efficient improved traditional medicines worldwide
+             To realize environmental and social impact</p>
+            </div>
+
+             <h2>Foundamental problem</h2>
+             <div align="justify">
+             <p class="intro">
+             The planet is highly exploited and life is increasingly threatened. 
+             The socio-economic development of the world without respect for the 
+             pillars of sustainable development (social equity, economic efficiency
+             and environmental health) creates social and economic inequalities, at 
+             all levels of human society. It impacts the earth irreversibly. 
+             While this has become at least 5 to 6 times insufficient to meet human 
+             needs is deteriorating every day. It is imperative to save the earth and
+             life (human, animal and plant)</p>
+            </div>
+
+        <h2>Graduare teachings</h2>
+        <div align="justify"> 
         <ul>
-            <li><a href="color/index.html">Environmental health </a></li>
+            <li><a href="color/index.html">Environmental health</a></li>
             <li><a href="typography/index.html">Ecosystems dynamic and carbon stock evaluation </a></li>
-            <li><a href="iconography/index.html"> Ethnopharmacology</a></li>
-            <li><a href="html/index.html"> Ethnobotany and conservation of plant biodiversity</li>
-            <li><a href='color/index.html'>Traditional medicine</a></li>
-            
+            <li><a href="iconography/index.html">Ethnopharmacology</a></li>
+            <li><a href="html/index.html">Ethnobotany and conservation of plant biodiversity</a></li>
+            <li><a href="color/index.html">Traditional medicine</a></li>   
         </ul>
-        <h2> Ungraduate teachings</h2>
+      </div>
+
+        <h2>Ungraduate teachings</h2>
+        <div align="justify">
         <ul>
           <li><a href="about/">Plant Ecophysiology</a></li>
-          <li><a href="blog/"></a>Ethnoboyany and environmental health</li>
-          <li><a href="contact/</a></li>
-          </ul>
+          <li><a href="blog/">Ethnoboyany and environmental health</a></li>
+          <li><a href="introduction/">Introduction to substainable development</a></li>
+          <li><a href="ethnobotany/">Ethnobotany and environmental health</a></li>
+          <li><a href="growth/">Growth, nutrition and development in angiosperms</a></li>
+      </ul>
+    </div>
 
-        
         <h2> Publications</h2>
+        <div align="justify">
         <ul>
-          <li><a href="now/">EThm</a>Ethnopharmacology for sustainable development in Cameroon</li>
+          <li><a href="now/">Ethnopharmacology for sustainable development in Cameroon</a></li>
           <li><a href="projects/">New approach for development of improved traditional medicine: 
           cas of an oral hypoglycemic herbal medicine from Laportea ovalifolia</a></li>
-          <li><a href="publications/">/a>Availability of medicinal plants used by local therapists 
-          of Kom-Megame forest complex </li>
+          <li><a href="publications/">Availability of medicinal plants used by local therapists 
+          of Kom-Megame forest complex</a></li>
           </ul>
+        </div>
 
-          <li><a href="research/"></a></li>
-          <li><a href="talks/"></a></li>
-          <li><a href="teaching/"></a></li>
+          <h2>Skills</h2>
+        <ul>
+          <li><a href="research/">Research</a></li>
+          <li><a href="talks/">Talks</a></li>
+          <li><a href="teaching/">Teaching</a></li>
         </ul>
 
     </main>
     <aside>
-     <ul>
-        <li><a href="https://github.com/scottgruber/academic-jumpstart"></a></li>
-       
-      </ul>  
+        <!-- <ul>
+            <li><a href="research/">Research</a></li>
+            <li><a href="talks/">Talks</a></li>
+            <li><a href="teaching/">Teaching</a></li>
+          </ul> -->
     </aside>
     <footer>
-        
     </footer>
   </body>
 
